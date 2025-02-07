@@ -13,8 +13,9 @@
         <h1>Tic-Tac-Toe</h1>
 
         <!-- button for new & restart -->
-         <button id="newGame" class="gameNew">New Game</button>
-         <div class="winnerDisplay">Winner</div>
+        <div class="utility">
+            <button id="newGame" class="gameNew">New Game</button>
+        </div>
 
         <div class="container">
             <div class="game">
@@ -33,6 +34,15 @@
         <!-- Button Reset -->
         <button id="button-reset" class="reset-button">Reset Game</button>
     </main>
+
+    <!-- Winner Model -->
+    <div id="winnerModel" class="model">
+        <div class="model-content">
+            <p id="winnerText"></p>
+            <button id="close-model">OK</button>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 

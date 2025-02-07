@@ -57,3 +57,60 @@ h1 {
     font-weight: 900;
     text-decoration: underline;
 }
+
+.utility {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vmin;
+}
+
+.gameNew {
+    margin: 1px;
+    padding: 15px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.101);
+}
+
+.model {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 10px;
+    z-index: 10;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+}
+
+.model-content button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.model-content button:hover {
+    background: #0056b3;
+}
+
+/* blur-effect*/
+.blur {
+    filter: blur(5px);
+}
