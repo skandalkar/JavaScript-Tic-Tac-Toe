@@ -3,6 +3,7 @@ let resetBtn = document.querySelector("#button-reset");
 let utility = document.querySelector(".utility");
 let newGame = document.querySelector("#newGame");
 let closemodel = document.querySelector("#close-model");
+let game = document.querySelector(".game");
 
 let turnO = true;
 
@@ -27,7 +28,6 @@ const resetGame = () => {
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
-        console.log("Box was hitted!");
         if (turnO) {
             box.innerText = "O";
             turnO = false;
@@ -36,12 +36,10 @@ boxes.forEach((box) => {
             box.innerText = "X";
             turnO = true;
         }
-        
-        checkWinner();
 
+        checkWinner();
     });
 });
-
 
 function DisplayWinner(winner) {
     document.getElementById("winnerText").textContent = `Congratulation, player ${winner} Won!`;
