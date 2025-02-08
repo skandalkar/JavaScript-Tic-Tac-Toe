@@ -45,11 +45,11 @@ Feel free to **fork** this repo, improve it, and create a **pull request**!
 ## **Outputs**
 **Here are some images:**
 <br><br>
-<img alt="tictactoe1.png" height="300" src="Assets/tictactoe1.png" width="400"/> <br>
-<img alt="tictactoe2.png" height="300" src="Assets/tictactoe2.png" width="400"/> <br>
-<img alt="tictactoe3.png" height="300" src="Assets/tictactoe3.png" width="400"/> <br>
+<img alt="tictactoe1.png" height="300" src="Assets/tictactoe1.png" width="500"/> <br><br>
+<img alt="tictactoe2.png" height="300" src="Assets/tictactoe2.png" width="500"/> <br><br>
+<img alt="tictactoe3.png" height="300" src="Assets/tictactoe3.png" width="500"/> <br><br>
 
 <br><br>
 **Tic Tac Toe Gameplay:**
 <br>
-<img alt="tictactoe1.png" height="300" src="Assets/tictactoeplay.gif" width="350"/>
+<img alt="tictactoe1.png" height="300" src="Assets/tictactoeplay.gif" width="500"/>
