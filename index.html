@@ -19,6 +19,7 @@
         <h1>Tic-Tac-Toe</h1>
 
         <div class="container">
+            <!-- Board for playing -->
             <div class="game">
                 <button class="box"></button>
                 <button class="box"></button>
@@ -32,20 +33,29 @@
             </div>
         </div>
 
-        <!-- Button Reset -->
+        <!-- Reset button for game reseting -->
         <button id="button-reset" class="reset-button">Reset Game</button>
+
     </main>
 
-    <!-- Winner Model Dialog Box-->
+    <!-- Winner Dialog Box -->
     <div id="winnerModel" class="model">
+
         <div class="model-content">
             <p id="winnerText"></p>
-
             <div class="utility">
                 <button id="close-model">Okay</button>
-                <button id="newGame" class="gameNew">Restart</button>
+                <button id="restart" class="gameNew">Restart</button>
             </div>
+        </div>
+    </div>
 
+    <!-- Draw Game Dialog Box -->
+    <div id="drawModel" class="modal">
+
+        <div class="modal-content">
+            <p id="drawText"></p>
+            <button id="close-draw-model">OK</button>
         </div>
     </div>
 
