@@ -1,7 +1,3 @@
-# JavaScript-Tic-Tac-Toe
-This is one step to build project in Javascript.
-
-
 # **Tic-Tac-Toe (JavaScript)**  
 
 A simple **Tic-Tac-Toe** game built using **HTML, CSS, and JavaScript**. This project provides an interactive UI, smooth gameplay, and prevents players from making invalid moves.  
