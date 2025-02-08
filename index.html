@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ====================== -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- ====================== -->
+    <link rel="shortcut icon" href="Assets/tic-tac-toe.icon.jpg" type="image/x-icon" />
+
     <title>Tic-Tac-Toe Game</title>
 </head>
 
 <body>
     <main>
         <h1>Tic-Tac-Toe</h1>
-
-        <!-- button for new & restart -->
-        <div class="utility">
-            <button id="newGame" class="gameNew">New Game</button>
-        </div>
 
         <div class="container">
             <div class="game">
@@ -39,7 +40,12 @@
     <div id="winnerModel" class="model">
         <div class="model-content">
             <p id="winnerText"></p>
-            <button id="close-model">OK</button>
+
+            <div class="utility">
+                <button id="close-model">Okay</button>
+                <button id="newGame" class="gameNew">Restart</button>
+            </div>
+
         </div>
     </div>
 

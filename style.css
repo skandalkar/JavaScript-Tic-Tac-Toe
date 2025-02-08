@@ -6,8 +6,9 @@
 }
 
 body {
-    background-color: #CAF0F8;
+    background-color: #EAE7DE;
     text-align: center;
+    /* CAF0F8 */
 }
 
 .container {
@@ -39,15 +40,24 @@ body {
     color: #d90429;
 }
 
+.box:hover {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.501);
+}
+
 .reset-button {
-    background: #00b0fb;
-    color: black;
+    background: #A4A860;
+    color: rgb(23, 23, 23);
     font-size: 25px;
+    font-weight: 540;
     padding: 10px;
     border: none;
     border-radius: 10px;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.343);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.104);
     cursor: pointer;
+}
+.reset-button:hover{
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.343);
+    background-color: #a1a562;
 }
 
 h1 {
@@ -56,27 +66,6 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 900;
     text-decoration: underline;
-}
-
-.utility {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1.2vmin;
-}
-
-.gameNew {
-    margin: 1px;
-    padding: 15px;
-    font-family: "Roboto", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-size: large;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.101);
 }
 
 .model {
@@ -88,29 +77,55 @@ h1 {
     width: 300px;
     height: auto;
     background: #ffffff;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
     border-radius: 10px;
     z-index: 10;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
+
+}
+
+.utility {
+    padding: 5px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    gap: 1.2vmin;
 }
 
 .model-content button {
-    margin-top: 10px;
-    padding: 10px 15px;
-    background: #007BFF;
+    margin: 0;
+    padding: 10px;
+    background: #e42803e4;
+    border-radius: 5px;
     color: white;
     border: none;
     cursor: pointer;
+    font-family: "Roboto", serif;
+}
+
+.gameNew {
+    margin: 0;
+    padding: 10px;
+    background: #e42803e4;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto", serif;
 }
 
 .model-content button:hover {
-    background: #0056b3;
+    background: #f72601;
 }
 
 /* blur-effect*/
 .blur {
-    filter: blur(5px);
+    filter: blur(10px);
 }

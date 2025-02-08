@@ -42,7 +42,7 @@ boxes.forEach((box) => {
 });
 
 function DisplayWinner(winner) {
-    document.getElementById("winnerText").textContent = `Congratulation, player ${winner} Won!`;
+    document.getElementById("winnerText").textContent = `Congratulation, player ${winner} won!`;
     document.getElementById("winnerModel").style.display = "block";
     document.querySelector(".container").classList.add("blur");
 };
