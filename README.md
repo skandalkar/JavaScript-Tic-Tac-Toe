@@ -43,7 +43,7 @@ Feel free to **fork** this repo, improve it, and create a **pull request**!
 <br><br>
 <img alt="tictactoe1.png" height="350" src="Assets/tictactoe1.png" width="600"/> <br><br>
 <img alt="tictactoe2.png" height="350" src="Assets/tictactoe2.png" width="600"/> <br><br>
-<img alt="tictactoe3.png" height="350" src="Assets/tictactoe3.png" width="600"/> <br><br>
+<img alt="tictactoe3.png" height="350" src="Assets/tictactoe3.png" width="600"/> <br>
 
 Tic Tac Toe Gameplay:
 <br>
