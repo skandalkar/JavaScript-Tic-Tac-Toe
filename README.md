@@ -43,12 +43,13 @@ A simple **Tic-Tac-Toe** game built using **HTML, CSS, and JavaScript**. This pr
 Feel free to **fork** this repo, improve it, and create a **pull request**!  
 
 ## **Outputs**
-Here are some images:
+**Here are some images:**
 <br>
-<img alt="tictactoe1.png" height="300" src="Assets/tictactoe1.png" width="250"/>
-<img alt="tictactoe2.png" height="300" src="Assets/tictactoe2.png" width="250"/>
-<img alt="tictactoe3.png" height="300" src="Assets/tictactoe3.png" width="250"/>
+<img alt="tictactoe1.png" height="300" src="Assets/tictactoe1.png" width="350"/><br>
+<img alt="tictactoe2.png" height="300" src="Assets/tictactoe2.png" width="350"/><br>
+<img alt="tictactoe3.png" height="300" src="Assets/tictactoe3.png" width="350"/><br>
 
 <br>
-** Tic-Tac-Toe Gameplay:** <br>
-<img alt="tictactoe1.png" height="300" src="Assets/tictactoeplay.gif" width="250"/>
+**Tic Tac Toe Gameplay:**
+<br>
+<img alt="tictactoe1.png" height="300" src="Assets/tictactoeplay.gif" width="350"/>
